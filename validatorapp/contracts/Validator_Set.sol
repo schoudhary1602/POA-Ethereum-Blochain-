@@ -11,7 +11,6 @@ interface ValidatorSet {
 	/// _parentHash here should be the parent block hash, or the
 	/// signal will not be recognized.
 	event InitiateChange(bytes32 indexed _parentHash, address[] _newSet);
-
 	/// Called when an initiated change reaches finality and is activated.
 	/// Only valid when msg.sender == SYSTEM (EIP96, 2**160 - 2).
 	///
