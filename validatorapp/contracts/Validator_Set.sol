@@ -34,6 +34,6 @@ interface ValidatorSet {
 	/// Get current validator set (last enacted or initial if no changes ever made).
 	function getValidators() 
         external 
-        view 
+        view
         returns (address[]);
 }
