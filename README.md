@@ -1,4 +1,4 @@
-# POA-Ethereum-Blochain-
+# POA-Ethereum-Blokchain
 Ready to user components for building your own private blockchain which can be futher use for 
 
  - Launching your own currency and integraion with exchagnes for trading 
